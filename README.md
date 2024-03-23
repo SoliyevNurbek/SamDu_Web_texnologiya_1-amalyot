@@ -1,4 +1,5 @@
 index.php fayli ichiga javoblari yozilgan Savollar to'plami 
+
     Begin1. Kvadratning tomoni a berilgan. Uning perimetri aniqlansin. P=4*a
     Begin2. Kvadratning tomoni a berilgan. Uning yuzasi aniqlansin. S=a^{2}
     Begin3. To'g'ri to'rtburchakning tomonlari a va b berilgan. Uning yuzasi S = a*b; va 
@@ -13,6 +14,7 @@ index.php fayli ichiga javoblari yozilgan Savollar to'plami
     Begin10. Nolga teng bo'lmagan ikkita son berilgan. Ularning yig'indisini, ko'paytmasini va har birining kvadrati aniqlansin.
 
 index2.php fayli ichiga javoblari yozilgan Savollar to'plami 
+
     Integer1. Uzunlik L santimetrda berilgan. Undagi to'liq metrlar sonini aniqlovchi programma tuzilsin. (1m=100cm)
     Integer2. Og'irlik M kilogramda berilgan. Undagi to'liq tonnalar sonini aniqlovchi programma tuzilsin. (1t=1000kg)
     Integer3. Faylning hajmi baytlarda berilgan. Bo'lib butunni olish operatsiyasidan foydalanib fayl hajmining to'liq kilobaytlarda ifodalovchi programma tuzilsin. (1Kb=1024 bayt) 
@@ -25,6 +27,7 @@ index2.php fayli ichiga javoblari yozilgan Savollar to'plami
     Integer10 Uch xonali son berilgan. Oldin uni birliklar xonasidagi raqamni so'ng o'nliklar xonasidagi raqamni chiqaruvchi programma tuzilsin.
 
 index3.php fayli ichiga javoblari yozilgan Savollar to'plami 
+
     If1. Butun son berilgan. Agar, berilgan son musbat bo'lsa, 1 ga oshirilsin, aks holda o'zgartirilmasin. Hosil bo'lgan sonni ekranga chiqaruvchi programma tuzilsin.
     if2. Butun son berilgan. Agar, berilgan son musbat bo'lsa, 1 ga oshiring, aks holda 2 ga kamaytiring. Hosil bo'lgan sonni ekranga chiqaruvchi programma tuzilsin.
     if3. Butun son berilgan. Agar, berilgan son musbat bo'lsa, 1 ga oshiring, agar manfiy bo'lsa 2 ga kamaytiring Agar 0 ga teng bo'lsa, 10 ni o'zlashtirsin. Hosil bo'lgan sonni ekranga chiqaruvchi programma tuzilsin.
@@ -37,6 +40,7 @@ index3.php fayli ichiga javoblari yozilgan Savollar to'plami
     if10 A va B butun sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo'lmasa, A va B o'zgaruvchilari ularning yig'indisini o'zlashtirsin Agar teng bo'lsa 0 ni o'zlashtirsin A va B ning qiymati ekranga chiqarilsin.
 
 indexdars.php fayli ichiga javoblari yozilgan Savollar to'plami 
+
     1.A va B sonlari berilgan shu sonlarni qo’shish dasturini yozing. 
     2.4-savolda berilgan massivni chop qiling.(Sikl yordamida yoki massivni 
     shunchaki ko’rish uchun) 
