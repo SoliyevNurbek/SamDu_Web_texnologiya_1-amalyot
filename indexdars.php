@@ -6,15 +6,15 @@
     <title>Maxsus guruh dasragi misollar</title>
 </head>
 <body>
- <!-- 1-misol -->
-<!-- <?php
+ <!-- 1-misol
+  <?php
     $a = $_GET['a'];
     $b = $_GET['b'];
     
   ?>
   <h2>Berilgan sonlar <?= $_GET['a']," ",$_GET['b']?> yig'indi : <?= $a+=$b?></h2> -->
-  <!-- 3-misol -->
-  <!-- <table border="1">
+  <!-- 3-misol
+   <table border="1">
     <?php foreach (range(1,4) as $i) { ?>
     <tr>
         <?php foreach (range(1,4) as $j) { ?>
@@ -23,16 +23,16 @@
     </tr>
     <?php } ?>
   </table> -->
-<!-- 5-misol -->
-<!-- <?php
+<!-- 5-misol
+ <?php
     $a = $_GET['a'];
     $b = $_GET['b'];
     $x=($a*$a+$b*$b)/2;
     
   ?>
   <h2>Berilgan sonlar <?= $_GET['a']," ",$_GET['b']?>O'rta kvadrati : <?= $x?></h2> -->
-  <!-- 4-2-7-misol -->
-  <!-- <?php
+  <!-- 4-2-7-misol
+  <?php
   $mevalar = [
     "nok" => 10,
     "banan" => 8,
