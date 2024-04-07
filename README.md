@@ -52,3 +52,36 @@ indexdars.php fayli ichiga javoblari yozilgan Savollar to'plami
     belgilar soni bo’yicha ma’lumonti chiqaring. 
     7.2-savolda yaratgan massivni miqdor bo’yicha saralang. 
     8.Markaziy bank belgilagan valyuta kursini ekranga chiqaring.
+
+3-topshiriq topshiriq3.php fayli ichiga javoblari yozilgan savollar to'plami
+
+    Boolean 25. x, y sonlar berilgan Jumlani rostlikka tekshiring: "Koordinatalari (x,y) bo'lgan nuqta, koordinata choragining ikkinchisida yotadi".
+    Boolean 26. x, y sonlar berilgan Jumlani rostlikka tekshiring: "Koordinatalri (x,y) bo'lgan nuqta koordinata choragining to'rtinchisida yotadi".
+    Boolean27. x, y sonlar berilgan Jumlani rostlikka tekshiring: "Koordinatalri (x,y) bo'lgan nuqta koordinata choragining ikkinchisida yoki uchunchisida yotadi".
+    Boolean 28. x, y sonlar berilgan Jumlani rostlikka tekshiring: "Koordinatalri (x,y) bo'lgan nuqta koordinata choragining birinchi yoki uchunchisida yotadi".
+    Boolean29. (x, y), (x1, y1), (x2, y2) sonlari berilgan Jumlari rostlikka tekshiring: "Koordinatalari (x,y) bo'lgan nuqta, chap yuqori cho'qqisi (x1,y1) koordinatalarga ega bo'lgan va o'ng pastikisi (x2,y2) bo'lgan, tomonlari esa koordinata o'qlariga parallel bo'lgan to'rtburchak ichida yotadi".
+    Boolean30. a, b, c butun sonlari berilgan. Jumlani rostlikka tekshiring: "a, b, c tomonli uchburchak teng tomonli bo'ladi".
+    Boolean31. a, b, c butun sonlari berilgan. Jumlani rostlikka tekshiring: "a, b, c tomonli uchburchak teng yonli bo'ladi".
+    Boolean32. a, b, c butun sonlar berilgan. Jumlani rostlikka tekshiring: "a, b, c tomonli uchburchak to'g'ri burchakli".
+    Boolean33. a, b, c butun sonlar berilgan. Jumlani rostlikka tekshiring: "a, b, c tomonli uchburchak yasash mumkin".
+    Boolean34. Shaxmat doskasining x, y koordinatalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Doskaning chap pastki maydoni (1,1) qoraligini hisobga olib, jumlani rostlikka tekshiring: "Berilgan (x, y) maydon oq".
+    Boolean35. Shaxmat doskasining ikkita turli (x1, y1), (x2, y2) koordinalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Jumlani rostlikka tekshiring: "Berilgan maydonlar bir xil rangda".
+    Boolean36. Shaxmat doskasining ikkita turli (x1, y1), (x2, y2) koordinalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Jumlani rostlikka tekshiring: "Ruh bir yurishda bir maydondan ikkinchisiga o'ta
+    oladi".
+    Boolean 37. Shaxmat doskasining ikkita turli (x1, y1), (x2, y2) koordinalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Jumlani rostlikka tekshiring: "Shoh bir yurishda bir maydondan ikkinchisiga o'ta oladi."
+    Boolean38. Shaxmat doskasining ikkita turli (x1, y1), (x2, y2) koordinalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Jumlani rostlikka tekshiring: "Fil bir yurishda bir maydondan ikkinchisiga o'ta oladi".
+    Boolean39. Shaxmat doskasining ikkita turli (x1, y1), (x2, y2) koordinalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Jumlani rostlikka tekshiring: "Farzin bir yurishda bir maydondan ikkinchisiga o'ta oladi".
+    Boolean40. Shaxmat doskasining ikkita turli (x1, y1), (x2, y2) koordinalari berilgan (1-8 oraliqda yotuvchi butun sonlar). Jumlani rostlikka tekshiring: "Ot bir yurishda bir maydondan ikkinchisiga o'ta oladi".
+    if10. A va B butun sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo'lmasa, A va B o`zgaruvchilari ularning yig'indisini o'zlashtirsin. Agar teng bo'lsa, 0 ni o`zlashtirsin. A va B ning qiymati ekranga chiqarilsin.
+    if11. A va B butun sonlari berilgan. Agar o'zgaruvchilar o'zaro teng bo'lmasa, A va B bu sonlaming kattasini o`zlashtirsin. Agar teng bo'lsa, 0 ni o`zlashtirsin. A va B ning qiymati ekranga chiqarilsin.
+    if12. Uchta son berilgan. Shu sonlarni kichigini aniqlovchi programma tuzilsin.
+    if13. Uchta son berilgan. Shu sonlarni o`ratachasi (ya'ni katta va kichik sonlar orasidagi son) ni aniqlovchi programma tuzilsin.
+    if14. Uchta son berilgan. Shu sonlami awal kichigini keyin kattasini ekranga chiqaruvchi programma tuzilsin.
+    if15. Uchta son berilgan Shu sonlarning yig'indisi eng katta bo'ladigan ikkitasini ekranga chiqaruvchi programma tuzilsin.
+    if16. A, B, C haqiqiy sonlari berilgan. Agar berilgan sonlar o'sish tartibida berilgan bo'lsa, sonlami ikkilantiring, aks holda sonlarni ishorasi o'zgartirilsin. A, B, C ning qiymatlari ekranga chiqarilsin
+    if17. A, B, C haqiqiy sonlari berilgan. Agar berilgan sonlar o'sish yoki kamayish tartibida berilgan bo'lsa, sonlami ikkilantiring, aks holda sonlami ishorasi o'zgartirilsin. A, B, C ning qiymatlari ekranga chiqarilsin.
+    if18. Uchta butun son berilgan. Shu sonlami ikkitasi o'zaro teng, qolgan bittasini tartib raqami aniqlansin.
+    if19. To'rtta butun son berilgan Shu sonlami uchtasi o'zaro teng, qolgan bittasini tartib raqami aniqlansin.
+    if20. Sonlar o`qida uchta A, B, C nuqtalar berilgan. A nuqtaga eng yaqin nuqta va ular orasidagi masofa topilsin.
+    
+4-topshiriq Casedan 10 dan 20gacha tasi Functionsdan 1dan 30 gacha
