@@ -84,7 +84,7 @@
         $t=($x>0 && $x<9) && ($y>0 && $y<9) && ($x + $y)%2==1;
         echo "Berilgan (x, y) maydon oq muloxaza << $t >>";
     ?> -->
-    <?php
+    <!-- <?php
         // boolean 35-misol
         $x1=$_GET['x1'];
         $y1=$_GET['y1'];
@@ -92,6 +92,66 @@
         $y2=$_GET['y2'];
         $t=(($x1 + $y1)%2==1 && ($x2 + $y2)%2==1) || ($x1 + $y1)%2==0 && ($x2 + $y2)%2==0;
         echo "Berilgan  maydonlar birxil rangda muloxaza << $t >>";
+    ?> -->
+    <!-- <?php
+        // boolean 36-misol
+        $x1=$_GET['x1'];
+        $y1=$_GET['y1'];
+        $x2=$_GET['x2'];
+        $y2=$_GET['y2'];
+        $t1=($x1 == $x2 && $y1 != $y2 ) || ($y1 == $y2 && $x1 != $x2);
+        echo "Ruh bir yurishda bir maydondan ikkinchisiga o'ta
+        oladi muloxaza << $t1 >>";
+    ?> -->
+    <!-- <?php
+        // boolean 37-misol
+        $x1=$_GET['x1'];
+        $y1=$_GET['y1'];
+        $x2=$_GET['x2'];
+        $y2=$_GET['y2'];
+        $t1=($x1 + $y1) == ($x2 + $y2);
+        $t2=($x1 == $x2) && (($y1 + 1) == $y2 || ($y1 - 1) == $y2);
+        $t3=($y1 == $y2) && (($x1 + 1) == $x2 || ($x1 - 1) == $x2);
+        $t4=(($x1 - 1) == $x2 && ($y1 - 1) == $y2) || (($x1 + 1) == $x2 && ($y1 + 1) == $y2);
+        $tx=$t1 || $t2 || $t3 || $t4 ;
+        echo "Shoh bir yurishda bir maydondan ikkinchisiga o'ta oladi muloxaza << $tx >>";
+    ?> -->
+    <!-- <?php
+        // boolean 38-misol
+        $x1=$_GET['x1'];
+        $y1=$_GET['y1'];
+        $x2=$_GET['x2'];
+        $y2=$_GET['y2'];
+        $t1=($x1+$y1)==($x2 + $y2);
+        $t2=abs($x1 - $y1) == abs($x2 - $y2);
+        $t = $t1 || $t2;
+        echo "Fil bir yurishda bir maydondan ikkinchisiga o'ta oladi muloxaza << $t >>";
+    ?> -->
+    <!-- <?php
+        // boolean 39-misol
+        $x1=$_GET['x1'];
+        $y1=$_GET['y1'];
+        $x2=$_GET['x2'];
+        $y2=$_GET['y2'];
+
+        $tfil1=($x1+$y1)==($x2 + $y2);
+        $tfil2=abs($x1 - $y1) == abs($x2 - $y2);
+
+        $fil = $tfil1 || $tfil2;
+        $ruh=($x1 == $x2 && $y1 != $y2 ) || ($y1 == $y2 && $x1 != $x2);
+
+        $farzin=$fil || $ruh ;
+        echo "Farzin bir yurishda bir maydondan ikkinchisiga o'ta oladi muloxaza << $farzin >>";
+    ?> -->
+    <?php
+        // boolean 40-misol
+        $x1=$_GET['x1'];
+        $y1=$_GET['y1'];
+        $x2=$_GET['x2'];
+        $y2=$_GET['y2'];
+
+        $t=(abs($x2-$x1) == 1 && abs($y2-$y1) == 2) || (abs($x2-$x1) == 2 && abs($y2-$y1) == 1);
+        echo "Ot bir yurishda bir maydondan ikkinchisiga o'ta oladi muloxaza << $t >>";
     ?>
 </body>
 </html>
