@@ -143,7 +143,7 @@
         $farzin=$fil || $ruh ;
         echo "Farzin bir yurishda bir maydondan ikkinchisiga o'ta oladi muloxaza << $farzin >>";
     ?> -->
-    <?php
+    <!-- <?php
         // boolean 40-misol
         $x1=$_GET['x1'];
         $y1=$_GET['y1'];
@@ -152,6 +152,163 @@
 
         $t=(abs($x2-$x1) == 1 && abs($y2-$y1) == 2) || (abs($x2-$x1) == 2 && abs($y2-$y1) == 1);
         echo "Ot bir yurishda bir maydondan ikkinchisiga o'ta oladi muloxaza << $t >>";
+    ?> -->
+    <!-- <?php 
+    //if 11-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    echo "A dastlabki xolatda $a B dastlabki xolatda $b <br>";  
+    if($a>$b){
+        $b=$a;
+    }
+    else if($a<$b){
+        $a=$b;
+    }
+    else{
+        $a=$b=0;
+    }
+    echo "A o'zgartirilganda $a B o'zgartirilganda $b";   
+    ?> -->
+    <!-- <?php 
+    //if 12-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    
+    $x=min($a,$b,$c);
+    echo "Uchta sonning ichidagi eng kichik element $x";
+    ?> -->
+    <!-- <?php 
+    //if 13-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    if (($a >= $b && $a <= $c) || ($a >= $c && $a <= $b)) {
+        echo "$a o'rtadagi son";
+    } elseif (($b >= $a && $b <= $c) || ($b >= $c && $b <= $a)) {
+        echo "$b o'rtadagi son";
+    } else {
+        echo "$c o'rtadagi son";
+    }
+    ?> -->
+    <!-- <?php 
+    //if 14-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    $a1=min($a,$b,$c);
+    $a2=max($a,$b,$c);
+        echo "kichigi  $a1  kattasi $a2";
+    ?> -->
+    <!-- <?php 
+    //if 15-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    if (($c >= $a && $a >= $b) || ($a >= $c && $c >= $b)){
+        echo "Yig'indisi eng katta bo'ladigan sonlar $c va $a";
+    }
+    elseif (($c >= $b && $b >= $a) || ($b >= $c && $c >= $a)){
+        echo "Yig'indisi eng katta bo'ladigan sonlar $c va $b";
+    }
+    else {
+        echo "Yig'indisi eng katta bo'ladigan sonlar $a va $b";
+    }
+    ?> -->
+<!-- <?php 
+    //if 16-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    if ($a <= $b && $b <= $c){
+        $a1=$a*2;
+        $b1=$b*2;
+        $c1=$c*2;
+        echo "Ikkilangan va o'sish tartibidagi sonlar $a1 : $b1 : $c1";
+    }
+    else {
+        $a1=$a*(-1);
+        $b1=$b*(-1);
+        $c1=$c*(-1);
+        echo "Ishorasi o'zgargan sonlar $a1 : $b1 : $c1";
+    }
+    ?> -->
+    <!-- <?php 
+    //if 17-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    if (($a <= $b && $b <= $c) || ($a >= $b && $b >= $c)){
+        $a1=$a*2;
+        $b1=$b*2;
+        $c1=$c*2;
+        echo "Ikkilangan va o'sish tartibidagi sonlar $a1 : $b1 : $c1";
+    }
+    else {
+        $a1=$a*(-1);
+        $b1=$b*(-1);
+        $c1=$c*(-1);
+        echo "Ishorasi o'zgargan sonlar $a1 : $b1 : $c1";
+    }
+    ?> -->
+    <!-- <?php 
+    //if 18-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    if ($a == $b && $b != $c){
+        echo "3-index";
+    }
+    elseif ($c == $b && $b != $a) {
+       echo "1-index";
+    }
+    elseif ($c == $a && $a != $b){
+        echo "2-index";
+    }
+    else{
+        echo "Teng sonlar yo'q ";
+    }
+    ?> -->
+    <!-- <?php 
+    //if 19-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    $d=$_GET['d'];
+    if ($a == $b && $b == $c && $c != $d){
+        echo "4-index";
+    }
+    elseif ($d == $b && $b == $a && $d != $c) {
+       echo "3-index";
+    }
+    elseif ($a == $c && $c == $d && $a != $b){
+        echo "2-index";
+    }
+    elseif ($b == $c && $c == $d && $d != $a){
+        echo "1-index";
+    }
+    else{
+        echo "Teng sonlar yo'q ";
+    }
+    ?> -->
+    <?php 
+    //if 20-misol
+    $a=$_GET['a'];
+    $b=$_GET['b'];
+    $c=$_GET['c'];
+    if (abs($a-$b) > abs($a-$c)){
+        $l=abs($a-$c);
+        echo "A ga eng yaqin nuqta C oralaridagi masofa $l";
+    }
+    elseif (abs($a-$b) < abs($a-$c)){
+        $l=abs($a-$b);
+        echo "A ga eng yaqin nuqta B oralaridagi masofa $l";
+    }
+    else{
+        echo "Error";
+    }
     ?>
+
+
 </body>
 </html>
