@@ -127,3 +127,5 @@ indexdars.php fayli ichiga javoblari yozilgan Savollar to'plami
     Fun Simple28. IsPrime(N) mantiqiy funksiyasini hosil qiling. (N> 0). Agar N soni tub bo'lsa- true, aks holda false qiymat qaytarilsin. Shu funksiya orqali kiritilgan k ta sondan nechtasi tub ekanini aniqlovchi programma tuzilsin.
     Fun Simple29. Butun qiymat qaytaruvchi DigitCount(K) funksiyasini hosil qiling. (K0). Funksiya K ning raqamlari sonini qaytarsin. Shu funksiya orqali 5 ta sonning raqamlari soni aniqlansin.
     Fun Simple30. Butun qiymat qaytaruvchi DigitN(K, N) funksiyasini hosil qiling. (K0). Funksiya K sonining N- raqamini qaytarsin. Agar K soni raqamlari N dan kichk bo'lsa, minus bir qaytarilsin. Shu funksiya orqali K1, K2, K3 sonlarining N-raqami aniqlansin
+
+sendemail.php fayli ichida 5-topshiriq javoblari yozilgan
