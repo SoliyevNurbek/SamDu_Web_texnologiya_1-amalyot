@@ -1779,7 +1779,7 @@
         default:echo "yuzliklar error !";
     }
     ?> -->
-    <?php
+    <!-- <?php
     //switch case 19-misol
         function mucha_va_hayvon($yil) {
             $rangi = array("yashil", "qizil", "sariq", "oq", "qora");
@@ -1803,8 +1803,8 @@
         echo "\n";
         echo mucha_va_hayvon(2023);
         echo "\n";
-    ?>
-    <?php 
+    ?> -->
+    <!-- <?php 
     //switch case 20-misol
         function burj_tezlangan($kun, $oy) {
             // Qovg'a burji
@@ -1865,6 +1865,186 @@
         $kun = 15; // Masalan, 15-kun
         $oy = 4;   // Masalan, Aprel oy
         echo "Sizning burjingiz: " . burj_tezlangan($kun, $oy);
-    ?>
+    ?> -->
+    <!-- <?php
+    //func 1-misol
+    function power($a, $b, $c, $d, $e){
+        $a=pow($a,3);
+        $b=pow($b,3);
+        $c=pow($c,3);
+        $d=pow($d,3);
+        $e=pow($e,3);
+        return "$a $b $c $d $e";
+    }
+    echo "Kiritilgan sonlarning kublari ".power($_GET['a'],$_GET['b'],$_GET['c'],$_GET['d'],$_GET['e']);
+    ?> -->
+    <!-- <?php
+    //func 2-misol
+        function power234($a, &$x2, &$x3, &$x4){
+            $x2=$a**2;
+            $x3=$a**3;
+            $x4=$a**4;
+        }
+        echo $_GET['a']." Kiritilgan  sonning 2,3,4 darajasi ".power234($_GET['a'],$x2,$x3,$x4)."$x2 $x3 $x4";
+    ?> -->
+    <!-- <?php
+    //func 3-misol
+        function Mean($a, $b ,&$arif, &$geo){
+            $arif=($a+$b)/2;
+            $geo=pow($a*$b,1/2);
+        }
+        echo $_GET['a']." ".$_GET['b']." Kiritilgan  sonning o'rta arifmetigi va geometrigi ".Mean($_GET['a'],$_GET['b'],$x3,$x4)."$x3 $x4";
+    ?> -->
+    <!-- <?php
+    //func 4-misol
+        function tri($a,&$arif, &$geo){
+            $arif=3*$a;
+            $geo=$a**2*sqrt(3)/4;
+        }
+        echo $_GET['a']." Kiritilgan teng tomonli uchburchak tomoni".tri($_GET['a'],$x3,$x4)." perimetri = $x3 yuzasi = $x4";
+    ?> -->
+    <!-- <?php
+    //func 5-misol
+        function rect($a, $b, &$arif, &$geo){
+            $arif=$b*$a;
+            $geo=($a+$b)*2;
+        }
+        $a=abs($_GET['y2'] - $_GET['y1']);
+        $b=abs($_GET['x2'] - $_GET['x1']);
+        echo rect($a,$b,$x3,$x4)." yuzi = $x3 perimetri = $x4";
+    ?> -->
+    <!-- <?php
+    //func 6-misol
+    function dc($a,&$son,&$yig){
+        $son=strlen(strval($a));
+        $l=str_split(strval($a));
+        $k=0;
+        for($i=0;$i<sizeof($l);$i++){
+            $k+=intval($l[$i]);
+        }
+        $yig=$k;
+    }
+    echo dc($_GET['a'],$x1,$x2)."Sonni raqamlari soni = $x1 raqamlari yig'indisi = $x2";
+    ?> -->
+    <!-- <?php
+    //func 7-misol
+        function ID($a){
+            return implode(array_reverse(str_split(strval($a))));
+        }
+        echo "Kiritilgan sonning raqamlari teskari tartiblangan son ".ID($_GET['a']);
+    ?> -->
+    <!--<?php
+    //func 8-misol
+        function AD($a,$r){
+            return intval(strval($a) . strval($r));
+        }
+        echo "Sonning ohiriga r raqamini qo'shilsa ".AD($_GET['a'],$_GET['r']);
+    ?> -->
+    <!-- <?php
+    //func 9-misol
+    function AD2($a,$r){
+        return intval(strval($r) . strval($a));
+    }
+    echo "Sonning ohiriga r raqamini qo'shilsa ".AD2($_GET['a'],$_GET['r']);
+    ?> -->
+    <!-- <?php 
+    //func 10-misol
+        function sw(&$a,&$b){
+            // extract(array('a' => $b, 'b' => $a));
+            //  list($a,$b) = array($b, $a);
+            // $t=$a;
+            // $a=$b;
+            // $b=$t; 
+            [$a, $b] = [$b, $a];
+        }
+        echo "Dastlabki sonlar ".$_GET['a']." , ".$_GET['b'].sw($_GET['a'],$_GET['b'])." Ozgartirilgan sonlar ".$a." , ",$b;
+    ?> -->
+    <!-- <?php
+    //func 11-misol
+    function Minmax($x, $y) {
+        $tek = array();
+        if ($x < $y) {
+            $tek['kichik'] = $x;
+            $tek['katta'] = $y;
+        } 
+        else {
+            $tek['kichik'] = $y;
+            $tek['katta'] = $x;
+        }
+        return $tek;
+    }
+    $z=Minmax($_GET['x'],$_GET['y']);
+    echo $z['kichik']." ".$z['katta']."Sonlarning min va max ";
+    ?> -->
+    <!-- <?php 
+    //func 12-misol
+    function sortln3($a,$b,$c){
+        $l=array($a,$b,$c);
+        sort($l);
+        echo " [ ";
+        foreach($l as $i){
+            echo $i." ";
+        }
+        echo " ] ";
+    }
+    echo sortln3($_GET['a'],$_GET['b'],$_GET['c'])." Berilgan sonlarning sortlangan ko'rinishi ";
+    ?> -->
+    <!-- <?php 
+    //func 13-misol
+    function sortln35($a,$b,$c){
+        $l=array($a,$b,$c);
+        sort($l);
+        array_reverse($l);
+        echo " [ ";
+        foreach($l as $i){
+            echo $i." ";
+        }
+        echo " ] ";
+    }
+    echo sortln35($_GET['a'],$_GET['b'],$_GET['c'])." Berilgan sonlarning sortlangan ko'rinishi ";
+    ?> -->
+    <!-- <?php 
+    //func 14-misol
+    function ShiftR($a,$b,$c){
+        $l=array($a,$b,$c);
+        $l[1]=$a;
+        $l[2]=$b;
+        $l[0]=$c;
+        echo " [ ";
+        foreach($l as $i){
+            echo $i." ";
+        }
+        echo " ] ";
+    }
+    echo ShiftR($_GET['a'],$_GET['b'],$_GET['c'])." Berilgan sonlarning o'nga siklik surilishi ko'rinishi ";
+    ?> -->
+    <!-- <?php 
+    //func 15-misol
+    function ShiftL($a,$b,$c){
+        $l=array($a,$b,$c);
+        $l[2]=$a;
+        $l[0]=$b;
+        $l[1]=$c;
+        echo " [ ";
+        foreach($l as $i){
+            echo $i." ";
+        }
+        echo " ] ";
+    }
+    echo ShiftL($_GET['a'],$_GET['b'],$_GET['c'])." Berilgan sonlarning o'nga siklik surilishi ko'rinishi ";
+    ?> -->
+    <!-- <?php 
+    //func 16-misol
+    function ishora($x){
+        if ($x < 0 ) return -1;
+        elseif($x > 0) return 1;
+        else return 0;
+    }
+    $y=ishora($_GET['a']) + ishora($_GET['b']);
+    echo "Berilgan ikkita sonning ishora yig'indisi = ".$y;
+    ?> -->
+        new_x = np.array([[6]])
+        new_x_poly = poly_features.transform(new_x)
+        predicted_y = model.predict(new_x_poly)
 </body>
 </html>
