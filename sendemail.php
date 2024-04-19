@@ -1,9 +1,9 @@
 <?php
 if(isset($_POST['submit'])) {
-    $to = 'shiorxon9911@gmail.com'; // Enter the recipient's email address here
+    $to = '***@gmail.com'; // Enter the recipient's email address here
     $subject = 'Message from My Website'; // Enter the subject of the email here
     $message = $_POST['message'];
-    $headers = 'soliyevnurbek4243@gmail.com'; // Enter your email address here
+    $headers = '***@gmail.com'; // Enter your email address here
     
     // Send email
     if(mail($to, $subject, $message, $headers)) {
